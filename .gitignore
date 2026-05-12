@@ -1,0 +1,23 @@
+*.gr
+*.tgr
+*.sgr
+*.edges
+*.txt.gz
+
+# --- Артефакты экспериментов ---
+results/
+*.csv
+!analysis/summary.csv
+
+# --- Сборка / временные ---
+.tmp/
+build/
+__pycache__/
+*.pyc
+
+# --- IDE ---
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
